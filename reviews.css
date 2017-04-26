@@ -1,0 +1,669 @@
+
+
+/* CSS RESET */
+/* CSS RESET */
+/* CSS RESET */
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+/* CSS RESET FOR OLDER BROWSERS */
+/* CSS RESET FOR OLDER BROWSERS */
+/* CSS RESET FOR OLDER BROWSERS */
+
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* MAIN CSS */
+/* MAIN CSS */
+/* MAIN CSS */
+
+
+#body {
+    background-color: #fdf8bc;
+    }    
+
+#header {
+    height: 100px;
+    margin: 0 auto;
+    background-image: url(se-logo-mobile.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    }
+   
+#navcontainer ul { 
+    padding: 2% 0;
+    list-style-type: none;
+    background-color: black;
+    color: #FFF;
+    text-align: center;
+    }
+
+#li { 
+    display: inline;
+    margin: 5% auto;
+    font-family: 'Metrophobic', sans-serif;
+    font-size: .9em;
+    }
+
+#li a {
+    text-decoration: none;
+    background-color: black;
+    color: #FFF;
+    padding: .2em 1em;
+    margin: 1.5%;
+    border: 1px solid #fff;
+    }
+
+#li a:hover {
+    background-color: #369;
+    color: #fff;
+    }
+    
+#candy-header-figure {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    text-align: center;
+    margin: 1.5% auto;
+    }
+
+#candy-header-img {
+    max-width: 100%;
+    margin: 0 auto;
+    }  
+
+#blog-header {
+    background-color: rgba(255,255,255,0.9);
+    width: 125%;
+    margin: 0 0 0 -12.5%;
+}
+
+#blog-header h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+    
+#column-1 h3 {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    }
+    
+#column-1 p {
+    font-family: 'Metrophobic', sans-serif;
+    font-size: 1em;
+    margin: 4% 0;
+    padding: 2%;
+    text-align: center;
+    }
+
+.fb-review {
+    margin: 10px auto;
+}
+
+#column-2 h3 {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    }
+    
+#column-2 p {
+    font-family: 'Metrophobic', sans-serif;
+    font-size: 1em;
+    margin: 4% 0;
+    padding: 2%;
+    text-align: center;
+    }
+
+.yelp-review {
+    min-width: 100% !important; /* yelp review embeds have fixed width of 320px, need this line to keep them from breaking out of containers. */
+    /* i think need js similar to facebook reviews to make them fit */
+    margin: 10px auto;
+}
+
+
+#clothes-footer-figure {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    text-align: center;
+    margin: 1.5% auto;
+    }
+
+#clothes-footer-img {
+    margin: 0 auto;
+    }
+
+#footer {
+    clear: left;
+    background-color: black;
+    padding: 2%;
+    font-family: 'Metrophobic', sans-serif;
+    }
+    
+#copyright {
+    color: white;
+    }
+    
+#soc-media-buttons a {
+    margin: 2%;
+    }
+
+
+/* @MEDIA SCREEN AND (MAX-WIDTH: 504PX) BLACKBERRY PASSPORT SMARTPHONE */
+/* @MEDIA SCREEN AND (MAX-WIDTH: 504PX) BLACKBERRY PASSPORT SMARTPHONE */
+/* @MEDIA SCREEN AND (MAX-WIDTH: 504PX) BLACKBERRY PASSPORT SMARTPHONE */
+
+
+/* I started with a design for mobile and worked my way out */
+
+
+
+@media screen and (max-width: 504px) {
+
+    
+
+.menu-btn div {
+	position: absolute;
+	left: 100%;
+	top: 64%;
+	padding-right: 8px;
+	margin-top: -0.50em;
+	line-height: 1.2;
+	font-size: 18px;
+	font-weight: 200;
+	vertical-align: middle;
+	z-index: 99;
+    }
+ 
+.menu-btn span {
+	display: block;
+	width: 19px;
+	height: 3px;
+	margin: 4px 0;
+	background: black;
+	z-index: 99;
+    }
+   
+#navcontainer {
+    display: none;
+    }
+ 
+.expand {
+	display: block !important;
+    }
+    
+#blog {
+    background: none;
+    width: 100%;
+    margin-top: 20px;
+    }
+    
+#column-1 {
+    width: 100%;
+    background-color: rgba(255,255,255,0.9);
+    margin-top: 20px;
+    }
+    
+#column-2 {
+    width: 100%;
+    background-color: rgba(255,255,255,0.9);
+    }
+
+#footer {
+    clear: left;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 60px;
+    }
+    
+#copyright {
+    width: 100%;
+    }
+    
+#soc-media-buttons {
+    position: absolute;
+    margin-top: 5px;
+    width: 100%;
+    }
+    
+    
+    
+}
+
+
+/* @MEDIA SCREEN AND (MAX-WIDTH: 768PX) FOR THE IPAD IN PORTRAIT MODE */
+/* @MEDIA SCREEN AND (MAX-WIDTH: 768PX) FOR THE IPAD IN PORTRAIT MODE */
+/* @MEDIA SCREEN AND (MAX-WIDTH: 768PX) FOR THE IPAD IN PORTRAIT MODE */
+
+
+@media screen and (min-width: 505px) and (max-width: 768px) {
+ 
+
+#li {
+    font-size: .9em;
+}
+    
+#blog {
+    background: url(columns.png) repeat-y 50% 0;
+    border-radius: 15px;
+    background-size: 100%;
+    margin: 2% auto;
+    min-height: 100%;
+    clear: left;
+    width: 90%;
+    }
+
+#blog:after {
+    content: "";
+    display: table;
+    clear: both;
+    }    
+
+#blog-header h2 {
+    font-size: 2.2em;
+}
+
+#column-1 {
+    width: 43%;
+    float: left;
+    clear: left;
+    padding: 2%;
+    }
+    
+#column-1 h3 {
+    font-size: 1.7em;
+}
+    
+#column-1 p {
+    font-size: 1.1em;
+}
+
+#column-2 {
+    width: 43%;
+    margin-left: 6%;
+    padding: 2%;
+    float: left;
+    }
+    
+#column-2 h3 {
+    font-size: 1.7em;
+}
+    
+#column-2 p {
+    font-size: 1.1em;
+}
+
+#footer {
+    height: 40px;
+    }
+    
+#copyright {
+    float: left;
+    margin-top: 6px;
+    margin-left: 5%;
+    }
+    
+#soc-media-buttons {
+    float: right;
+    margin-bottom: 10px;
+    width: 25%;
+    }
+    
+    
+    
+}
+
+
+/* @MEDIA SCREEN AND (MAX-WIDTH: 1024PX) FOR THE IPAD IN LANDSCAPE MODE*/
+/* @MEDIA SCREEN AND (MAX-WIDTH: 1024PX) FOR THE IPAD IN LANDSCAPE MODE*/
+/* @MEDIA SCREEN AND (MAX-WIDTH: 1024PX) FOR THE IPAD IN LANDSCAPE MODE*/
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    
+    
+#li {
+    font-size: 1.2em;
+    }
+    
+#blog {
+    background: url(columns.png) repeat-y 50% 0;
+    border-radius: 15px;
+    background-size: 100%;
+    margin: 2% auto;
+    min-height: 100%;
+    clear: left;
+    width: 90%;
+}
+
+#blog:after {
+    content: "";
+    display: table;
+    clear: both;
+}    
+
+#blog-header h2 {
+    font-size: 2.4em;
+}
+
+#column-1 {
+    width: 43%;
+    float: left;
+    clear: left;
+    padding: 2%;
+    }
+    
+#column-1 h3 {
+    font-size: 1.8em;
+}
+    
+#column-1 p {
+    font-size: 1.2em;
+}
+
+#column-2 {
+    width: 43%;
+    margin-left: 6%;
+    padding: 2%;
+    float: left;
+    }
+    
+#column-2 h3 {
+    font-size: 1.8em;
+}
+    
+#column-2 p {
+    font-size: 1.2em;
+}
+    
+#footer {
+    height: 40px;
+    }
+    
+#copyright {
+    float: left;
+    margin-top: 6px;
+    margin-left: 5%;
+    }
+    
+#soc-media-buttons {
+    float: right;
+    margin-bottom: 10px;
+    width: 25%;
+    }
+     
+    
+}
+
+
+
+/* @MEDIA SCREEN AND (MAX-WIDTH: 1280px) FOR THE AVERAGE LAPTOP SCREEN ACCORDING TO JAMES ROYAL-LAWSON ON HIS BEANTIN BLOG*/
+/* @MEDIA SCREEN AND (MAX-WIDTH: 1280px) FOR THE AVERAGE LAPTOP SCREEN ACCORDING TO JAMES ROYAL-LAWSON ON HIS BEANTIN BLOG*/
+/* @MEDIA SCREEN AND (MAX-WIDTH: 1280px) FOR THE AVERAGE LAPTOP SCREEN ACCORDING TO JAMES ROYAL-LAWSON ON HIS BEANTIN BLOG*/
+
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    
+    
+    
+#wrapper {
+    width: 90%;
+    margin: 0 auto;
+    border-left: 10px ridge hotpink;
+    border-right: 10px groove hotpink;
+	box-shadow: inset 0 -3px 0 0 #000, 0 3px 0 0 #000;
+    
+    }
+    
+#header {
+    background-image: url(se-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    height: 300px;
+    }
+
+#li {
+    font-size: 1.5em;
+    }
+
+#li a {
+    margin: 2%;
+    }
+    
+#blog {
+    background: url(columns.png) repeat-y 50% 0;
+    border-radius: 15px;
+    background-size: 100%;
+    margin: 2% auto;
+    min-height: 100%;
+    clear: left;
+    width: 90%;
+}
+
+#blog:after {
+    content: "";
+    display: table;
+    clear: both;
+}    
+
+#blog-header h2 {
+    font-size: 2.4em;
+}
+
+#column-1 {
+    width: 43%;
+    float: left;
+    clear: left;
+    padding: 2%;
+    }
+    
+#column-1 h3 {
+    font-size: 1.8em;
+}
+    
+#column-1 p {
+    font-size: 1.2em;
+}
+
+#column-2 {
+    width: 43%;
+    margin-left: 6%;
+    padding: 2%;
+    float: left;
+    }
+    
+#column-2 h3 {
+    font-size: 1.8em;
+}
+    
+#column-2 p {
+    font-size: 1.2em;
+}
+    
+#footer {
+    height: 40px;
+    }
+    
+#copyright {
+    float: left;
+    margin-top: 6px;
+    margin-left: 5%;
+    }
+    
+#soc-media-buttons {
+    float: right;
+    margin-bottom: 10px;
+    width: 25%;
+    }
+    
+    
+    
+
+    
+}
+
+
+
+/* @MEDIA SCREEN AND (MIN-WIDTH: 1201PX) */
+/* @MEDIA SCREEN AND (MIN-WIDTH: 1201PX) */
+/* @MEDIA SCREEN AND (MIN-WIDTH: 1201PX) */
+
+
+
+@media screen and (min-width: 1281px) {
+    
+
+
+#body {
+    width: 1280px; /*  */
+    margin: 0 auto;
+}
+
+#wrapper {
+    width: 90%;
+    margin: 0 auto;
+    border-left: 10px ridge hotpink;
+    border-right: 10px groove hotpink;
+	box-shadow: inset 0 -3px 0 0 #000, 0 3px 0 0 #000;
+    
+    }
+    
+#header {
+    background-image: url(se-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    height: 300px;
+    }
+
+#li {
+    font-size: 1.5em;
+    }
+
+#li a {
+    margin: 2%;
+    }
+    
+#blog {
+    background: url(columns.png) repeat-y 50% 0;
+    border-radius: 15px;
+    background-size: 100%;
+    margin: 2% auto;
+    min-height: 100%;
+    clear: left;
+    width: 90%;
+}
+
+#blog:after {
+    content: "";
+    display: table;
+    clear: both;
+}    
+
+#blog-header h2 {
+    font-size: 2.4em;
+}
+
+#column-1 {
+    width: 43%;
+    float: left;
+    clear: left;
+    padding: 2%;
+    }
+    
+#column-1 h3 {
+    font-size: 1.8em;
+}
+    
+#column-1 p {
+    font-size: 1.2em;
+}
+
+#column-2 {
+    width: 43%;
+    margin-left: 6%;
+    padding: 2%;
+    float: left;
+    }
+    
+#column-2 h3 {
+    font-size: 1.8em;
+}
+    
+#column-2 p {
+    font-size: 1.2em;
+}    
+
+#footer {
+    height: 40px;
+    }
+    
+#copyright {
+    float: left;
+    margin-top: 6px;
+    margin-left: 5%;
+    }
+    
+#soc-media-buttons {
+    float: right;
+    margin-bottom: 10px;
+    width: 25%;
+    }
+    
+    
+  
+
+    
+    
+}
